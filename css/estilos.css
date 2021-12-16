@@ -1,0 +1,211 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+nav a{
+    background-color: (156, 106, 202);
+    border-radius: 3%; 
+    text-decoration: none;
+    padding: 3%;
+    color:rgb(72, 130, 196);
+    
+}
+.logoperfil img{
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+.navbar-header{
+    font-family: 'Shadows Into Light', cursive;
+}
+.navbar-header h2{
+    font-family: 'Shadows Into Light', cursive;
+    color:rgb(72, 130, 196);
+}
+.navbar-header:hover{
+    color: white;
+}
+
+.navbar{
+    box-shadow: 0 5px 10px #efefef;
+}
+.navbar-brand{
+     font-size: 20px;
+     padding: 2px 10px;
+     text-decoration: none;
+     color:rgb(72, 130, 196);
+}
+
+.seccionesperfil a, .logoperfil a{
+    color:rgb(72, 130, 196);
+    display: block;
+    transition: 0.5s;
+}
+.logoperfil h1:hover, .seccionesperil a:hover{
+    color:rgb(72, 130, 196);
+    transform: scale(1.5);
+    border-radius: 3px;
+}
+.titulocita h2{
+    color: rgb(156, 106, 202);
+    font-size: 25px;
+}
+.cande{
+    background-color: white;
+}
+#offcanvasNavbar{
+    width: 60%;
+}
+.collageperfil img{
+    margin-top: 5%;
+    width: 100%;
+}
+.titlehome{
+    background-color: white;
+    padding: 2%;
+
+}
+.somos{
+    color: rgb(134, 130, 130);
+}
+.multi{
+    color:rgb(81, 119, 163);
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+}
+.imgdispositivos,{
+    padding-top: 3%;
+    background-color: rgb(195, 219, 241);
+}
+.contenido{
+    background-color: rgb(81, 119, 163);
+    padding: 5%;
+}
+.contenido h2{
+    font-size: 40px;
+}
+.imgdispositivos img{
+    width: 70%;
+}
+.descargable h3{
+    background-color: gray;
+    width: 18%;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 3%;
+    }
+.descargable h3:hover{
+    background-color: rgb(184, 184, 184) ;
+}
+
+.inspira{
+    background-color: white;
+}
+.inspiratitulo h2{
+    background-color:  rgb(156, 106, 202);
+    color: white; 
+    padding: 1%;
+}
+.inspira h3{
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(72, 130, 196);
+    font-size: 50px;
+}
+.inspira h3 span{
+    position: relative;
+}
+.inspira h3 span::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    background: white;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid rgb(72, 130, 196);
+    animation: escribiendo 3s steps(9) infinite;
+}
+@keyframes escribiendo{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+ .redes i{
+       font-size: 30px;
+       color: rgb(72, 130, 196);
+   }
+.redes i:hover{
+    color:rgb(72, 130, 196);
+    transform: translateY(-10%);
+    transition-duration: 0.5s;
+}
+.redes a{
+    margin-left: 2%
+}
+.titulocita{
+    background-color: rgb(72, 130, 196);
+}
+.canvas{
+    background-color: white;
+    color: rgb(35, 88, 158);
+}
+/* contacto */
+.bodycontacto{
+    background-image: url("globitos2.png");
+    background-size: 100%;
+    background-position-y: -10%;
+    background-color: rgb(195, 219, 241);
+    animation: globitos linear;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    overflow-x: hidden;
+}
+.head{
+    background-color:rgb(81, 119, 163);
+    border-radius: 5px;
+    margin-top: 2%;
+    }
+.borde input{
+    border-color:rgb(81, 119, 163);
+    border-radius: 5px;
+    border-style: solid;
+    width: 60%;
+    padding: 6px;
+
+}
+.borde input:hover{
+    border-color: rgb(72, 130, 196); 
+}
+.envi input{
+    background-color:rgb(81, 119, 163);
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    transition: 0.8s;
+}
+.envi input:hover{
+    background-color:rgb(136, 170, 241)  ;
+}
+/* temes */
+.temesuno{
+    margin-top: -40%;
+}
+.temesdos{
+    margin-top:-40%;
+    margin-left:60%;
+}
+/* footer */
+.footersitio a, .footercien a{
+       background-color:rgb(81, 119, 163);
+       color: white;
+       border-radius: 5px;
+       transition-duration: 0.8s;
+}
+.footersitio a:hover, .footercien a:hover{
+    background-color: white;
+       color: rgb(156, 106, 202) ;
+       
+}
