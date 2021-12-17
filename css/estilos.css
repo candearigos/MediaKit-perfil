@@ -66,13 +66,26 @@ nav a{
 .collageperfil h1{
     color:rgb(81, 119, 163);
     font-family: 'Secular One', sans-serif;
-    position: absolute;
-    top: -5%
+    font-size: 60px;
+    margin-top: -28%;
+    margin-left: 34%;
+    animation-name: somosperfil;
+    animation-duration: 5s;
+}
+@keyframes somosperfil{
+    0%{
+        opacity: 0%;
+        color: gray;
+    }
+    100%{
+        opacity: 100%;
+        color:rgb(81, 119, 163);
+    }
 }
 .titlehome{
+    margin-top: 25%;
     background-color: white;
     padding: 2%;
-
 }
 .somos{
     color: rgb(134, 130, 130);
@@ -223,6 +236,91 @@ nav a{
     margin-left: 8%;
     opacity: 60%;
 }
+
+
+
+
+/* audiencia */
+.audiencia1{
+    margin-top: 15%
+}
+.tituloaudiencia h1{
+    color:rgb(81, 119, 163);
+    font-family: 'Secular One', sans-serif;
+    font-size: 60px;
+}
+.tituloaudiencia h2{
+    color: gray;
+    font-family: 'Secular One', sans-serif;
+    font-size: 50px;
+}
+.mockupdiario img{
+    margin-top: 10%;
+    width: 30%;
+    margin-left: 5%;
+
+}
+.mockuprevista img{
+    width: 50%;
+    margin-top: -15%;
+    margin-left: -15%;
+}
+.mockupcelulares img{
+    width: 50%;
+    margin-top: -50%;
+    margin-left: 66%
+}
+.mockuptv img{
+    width: 40%;
+    margin-top: -45%;
+    margin-left: 35%;
+
+}
+.circulouno img {
+    width: 40%;
+    margin-top: -110%;
+    margin-left: 15%;
+}
+.circulouno p{
+    margin-top: -58%;
+    margin-left: 35%;
+}
+.circulodos img{
+    width: 40%;
+    margin-top: -90%;
+    margin-left: 55%;
+}
+.circulodos p{
+    margin-top: -48%;
+    margin-left: 66%;
+}
+.circulotres img{
+    width: 40%;
+    margin-top: -68%;
+    margin-left: 18%;
+}
+.circulotres p{
+    margin-top: -37%;
+    margin-left: 38%;
+}
+.circulouno p, .circulodos p, .circulotres p{
+    font-size: 25px; 
+    font-family: 'Secular One', sans-serif;
+    transition-duration: 1.2s;
+    color: black;
+}
+.circulouno p:hover, .circulodos p:hover, .circulotres p:hover{
+    transform:translateX(2%);
+    color: gray;
+}
+
+
+
+
+
+
+
+
 /* footer */
 .footersitio a, .footercien a{
        background-color:rgb(81, 119, 163);
